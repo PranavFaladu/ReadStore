@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ffe4e1;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem 3rem 0rem 3rem;
+    height: 10vh;
+    font-size: 30px;
+    margin-top: 1rem;
+    right: 0%;
+}
+header .logo img{
+    height: 2rem;
+    width: auto;    
+}
+a{
+    text-decoration: none;
+    color: black;  
+    cursor: pointer;
+    transition: transform 0.5s; 
+}
+a:hover{
+   transform: translateY(10px);
+}
+nav {
+    display: flex;
+    gap: 1.3rem;
+}
+nav img{
+    width: auto;
+    height: 2rem;
+    vertical-align: -5%;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 50rem;
+    height: 15vh;
+    background-color: white;
+}
+.listname select{
+    padding: 0.5rem;
+    border: 1px solid maroon;
+}
+.product{
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    gap: 5rem;
+    padding-top: 3rem;
+    
+}
+
+.product1 img{
+    width: 15vw;
+}
+.product1{
+    display: flex;
+    gap: 1rem;
+}
+.product1 h4{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.producttt{
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    gap: 5rem;
+    padding-top: 3rem;
+    
+}
+
+.productt1 img{
+    width: 15vw;
+}
+.productt1{
+    display: flex;
+    gap: 1rem;
+}
+.productt1 h4{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    height: 40vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 5rem;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+}
+#c8{
+    font-size: 1.5rem;
+}
+#c9{
+    font-size: 1rem;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer1 img, .footer2 img{
+    width: 11rem;
+}
+#c10
+{
+    text-align: center;
+}
+.footer3 a{
+    color: white;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer4 a{
+    color: white;
+}
+.footer4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
